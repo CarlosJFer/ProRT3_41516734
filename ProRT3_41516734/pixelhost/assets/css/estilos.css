@@ -1,0 +1,67 @@
+/* Cambia el color de fondo del nav a azul marino */
+.navbar.bg-body-tertiary {
+    background-color: #001f3f !important; /* Azul marino */
+    border-bottom: 3px solid #004080; /* Línea de contraste en la parte inferior */
+}
+
+/* Ajusta el tamaño del logo */
+.navbar-brand .img-fluid {
+    width: 120px !important; /* Ajusta el ancho del logo */
+    height: auto !important; /* Mantiene la proporción del logo */
+}
+
+/* Mejora el estilo de los links del navbar */
+.navbar .navbar-nav .nav-item .navbar-brand,
+.navbar .navbar-brand {
+    color: #ffffff !important; /* Color de texto blanco */
+    padding: 10px 15px;
+    font-size: 1rem; /* Tamaño de fuente */
+    transition: color 0.5s ease; /* Transición suave para el color */
+}
+
+.navbar .navbar-nav .nav-item .navbar-brand:hover,
+.navbar .navbar-brand:hover {
+    color: #00bfff !important; /* Color de texto al pasar el mouse */
+}
+
+/* Mejora el estilo del botón de búsqueda */
+.navbar .form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    padding: 0.375rem 0.75rem;
+}
+
+.navbar .btn-outline-success {
+    color: #ffffff;
+    border-color: #00bfff;
+    background-color: #00bfff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .btn-outline-success:hover {
+    color: #001f3f;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* Estilo para el botón del navbar en dispositivos móviles */
+.navbar-toggler {
+    border-color: #ffffff;
+}
+
+/* Hacer que todas las imágenes dentro de .card-img-top sean responsivas */
+.card-img-top {
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto original */
+}
+
+/* Opcional: Ajustes adicionales para las tarjetas */
+.card {
+    margin: 10px; /* Espaciado entre las tarjetas */
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribuye las tarjetas de manera uniforme */
+}
