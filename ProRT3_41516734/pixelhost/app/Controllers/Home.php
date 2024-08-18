@@ -4,6 +4,12 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
+
+    public function index()
+    {
+        return redirect()->to('principal');
+    }
+
     public function principal()
     {
         $data['titulo']='pagina principal';
